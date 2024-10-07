@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7954ED362CB46B8700E39365 /* JogassoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7954ED352CB46B8700E39365 /* JogassoApp.swift */; };
+		7954ED382CB46B8700E39365 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7954ED372CB46B8700E39365 /* ContentView.swift */; };
+		7954ED3A2CB46B8800E39365 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7954ED392CB46B8800E39365 /* Assets.xcassets */; };
+		7954ED3D2CB46B8800E39365 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7954ED3C2CB46B8800E39365 /* Preview Assets.xcassets */; };
+		7954ED472CB46B8800E39365 /* JogassoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7954ED462CB46B8800E39365 /* JogassoTests.swift */; };
+		7954ED512CB46B8800E39365 /* JogassoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7954ED502CB46B8800E39365 /* JogassoUITests.swift */; };
+		7954ED532CB46B8800E39365 /* JogassoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7954ED522CB46B8800E39365 /* JogassoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7954ED432CB46B8800E39365 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7954ED2A2CB46B8700E39365 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7954ED312CB46B8700E39365;
+			remoteInfo = Jogasso;
+		};
+		7954ED4D2CB46B8800E39365 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7954ED2A2CB46B8700E39365 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7954ED312CB46B8700E39365;
+			remoteInfo = Jogasso;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7954ED322CB46B8700E39365 /* Jogasso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jogasso.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7954ED352CB46B8700E39365 /* JogassoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogassoApp.swift; sourceTree = "<group>"; };
+		7954ED372CB46B8700E39365 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7954ED392CB46B8800E39365 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7954ED3C2CB46B8800E39365 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7954ED422CB46B8800E39365 /* JogassoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JogassoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7954ED462CB46B8800E39365 /* JogassoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogassoTests.swift; sourceTree = "<group>"; };
+		7954ED4C2CB46B8800E39365 /* JogassoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JogassoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7954ED502CB46B8800E39365 /* JogassoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogassoUITests.swift; sourceTree = "<group>"; };
+		7954ED522CB46B8800E39365 /* JogassoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogassoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7954ED2F2CB46B8700E39365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7954ED3F2CB46B8800E39365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7954ED492CB46B8800E39365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7954ED292CB46B8700E39365 = {
+			isa = PBXGroup;
+			children = (
+				7954ED342CB46B8700E39365 /* Jogasso */,
+				7954ED452CB46B8800E39365 /* JogassoTests */,
+				7954ED4F2CB46B8800E39365 /* JogassoUITests */,
+				7954ED332CB46B8700E39365 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7954ED332CB46B8700E39365 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7954ED322CB46B8700E39365 /* Jogasso.app */,
+				7954ED422CB46B8800E39365 /* JogassoTests.xctest */,
+				7954ED4C2CB46B8800E39365 /* JogassoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7954ED342CB46B8700E39365 /* Jogasso */ = {
+			isa = PBXGroup;
+			children = (
+				7954ED352CB46B8700E39365 /* JogassoApp.swift */,
+				7954ED372CB46B8700E39365 /* ContentView.swift */,
+				7954ED392CB46B8800E39365 /* Assets.xcassets */,
+				7954ED3B2CB46B8800E39365 /* Preview Content */,
+			);
+			path = Jogasso;
+			sourceTree = "<group>";
+		};
+		7954ED3B2CB46B8800E39365 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7954ED3C2CB46B8800E39365 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7954ED452CB46B8800E39365 /* JogassoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7954ED462CB46B8800E39365 /* JogassoTests.swift */,
+			);
+			path = JogassoTests;
+			sourceTree = "<group>";
+		};
+		7954ED4F2CB46B8800E39365 /* JogassoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7954ED502CB46B8800E39365 /* JogassoUITests.swift */,
+				7954ED522CB46B8800E39365 /* JogassoUITestsLaunchTests.swift */,
+			);
+			path = JogassoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7954ED312CB46B8700E39365 /* Jogasso */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7954ED562CB46B8800E39365 /* Build configuration list for PBXNativeTarget "Jogasso" */;
+			buildPhases = (
+				7954ED2E2CB46B8700E39365 /* Sources */,
+				7954ED2F2CB46B8700E39365 /* Frameworks */,
+				7954ED302CB46B8700E39365 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jogasso;
+			productName = Jogasso;
+			productReference = 7954ED322CB46B8700E39365 /* Jogasso.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7954ED412CB46B8800E39365 /* JogassoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7954ED592CB46B8800E39365 /* Build configuration list for PBXNativeTarget "JogassoTests" */;
+			buildPhases = (
+				7954ED3E2CB46B8800E39365 /* Sources */,
+				7954ED3F2CB46B8800E39365 /* Frameworks */,
+				7954ED402CB46B8800E39365 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7954ED442CB46B8800E39365 /* PBXTargetDependency */,
+			);
+			name = JogassoTests;
+			productName = JogassoTests;
+			productReference = 7954ED422CB46B8800E39365 /* JogassoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7954ED4B2CB46B8800E39365 /* JogassoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7954ED5C2CB46B8800E39365 /* Build configuration list for PBXNativeTarget "JogassoUITests" */;
+			buildPhases = (
+				7954ED482CB46B8800E39365 /* Sources */,
+				7954ED492CB46B8800E39365 /* Frameworks */,
+				7954ED4A2CB46B8800E39365 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7954ED4E2CB46B8800E39365 /* PBXTargetDependency */,
+			);
+			name = JogassoUITests;
+			productName = JogassoUITests;
+			productReference = 7954ED4C2CB46B8800E39365 /* JogassoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7954ED2A2CB46B8700E39365 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					7954ED312CB46B8700E39365 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					7954ED412CB46B8800E39365 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 7954ED312CB46B8700E39365;
+					};
+					7954ED4B2CB46B8800E39365 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 7954ED312CB46B8700E39365;
+					};
+				};
+			};
+			buildConfigurationList = 7954ED2D2CB46B8700E39365 /* Build configuration list for PBXProject "Jogasso" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7954ED292CB46B8700E39365;
+			productRefGroup = 7954ED332CB46B8700E39365 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7954ED312CB46B8700E39365 /* Jogasso */,
+				7954ED412CB46B8800E39365 /* JogassoTests */,
+				7954ED4B2CB46B8800E39365 /* JogassoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7954ED302CB46B8700E39365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7954ED3D2CB46B8800E39365 /* Preview Assets.xcassets in Resources */,
+				7954ED3A2CB46B8800E39365 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7954ED402CB46B8800E39365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7954ED4A2CB46B8800E39365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7954ED2E2CB46B8700E39365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7954ED382CB46B8700E39365 /* ContentView.swift in Sources */,
+				7954ED362CB46B8700E39365 /* JogassoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7954ED3E2CB46B8800E39365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7954ED472CB46B8800E39365 /* JogassoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7954ED482CB46B8800E39365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7954ED512CB46B8800E39365 /* JogassoUITests.swift in Sources */,
+				7954ED532CB46B8800E39365 /* JogassoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7954ED442CB46B8800E39365 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7954ED312CB46B8700E39365 /* Jogasso */;
+			targetProxy = 7954ED432CB46B8800E39365 /* PBXContainerItemProxy */;
+		};
+		7954ED4E2CB46B8800E39365 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7954ED312CB46B8700E39365 /* Jogasso */;
+			targetProxy = 7954ED4D2CB46B8800E39365 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7954ED542CB46B8800E39365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7954ED552CB46B8800E39365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7954ED572CB46B8800E39365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Jogasso/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Grupo-3.Jogasso";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7954ED582CB46B8800E39365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Jogasso/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Grupo-3.Jogasso";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7954ED5A2CB46B8800E39365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Grupo-3.JogassoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jogasso.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Jogasso";
+			};
+			name = Debug;
+		};
+		7954ED5B2CB46B8800E39365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Grupo-3.JogassoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jogasso.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Jogasso";
+			};
+			name = Release;
+		};
+		7954ED5D2CB46B8800E39365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Grupo-3.JogassoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jogasso;
+			};
+			name = Debug;
+		};
+		7954ED5E2CB46B8800E39365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Grupo-3.JogassoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jogasso;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7954ED2D2CB46B8700E39365 /* Build configuration list for PBXProject "Jogasso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7954ED542CB46B8800E39365 /* Debug */,
+				7954ED552CB46B8800E39365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7954ED562CB46B8800E39365 /* Build configuration list for PBXNativeTarget "Jogasso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7954ED572CB46B8800E39365 /* Debug */,
+				7954ED582CB46B8800E39365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7954ED592CB46B8800E39365 /* Build configuration list for PBXNativeTarget "JogassoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7954ED5A2CB46B8800E39365 /* Debug */,
+				7954ED5B2CB46B8800E39365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7954ED5C2CB46B8800E39365 /* Build configuration list for PBXNativeTarget "JogassoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7954ED5D2CB46B8800E39365 /* Debug */,
+				7954ED5E2CB46B8800E39365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7954ED2A2CB46B8700E39365 /* Project object */;
+}
