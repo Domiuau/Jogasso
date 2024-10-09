@@ -11,9 +11,6 @@
 		7954ED382CB46B8700E39365 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7954ED372CB46B8700E39365 /* ContentView.swift */; };
 		7954ED3A2CB46B8800E39365 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7954ED392CB46B8800E39365 /* Assets.xcassets */; };
 		7954ED3D2CB46B8800E39365 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7954ED3C2CB46B8800E39365 /* Preview Assets.xcassets */; };
-		7954ED472CB46B8800E39365 /* JogassoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7954ED462CB46B8800E39365 /* JogassoTests.swift */; };
-		7954ED512CB46B8800E39365 /* JogassoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7954ED502CB46B8800E39365 /* JogassoUITests.swift */; };
-		7954ED532CB46B8800E39365 /* JogassoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7954ED522CB46B8800E39365 /* JogassoUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +37,7 @@
 		7954ED392CB46B8800E39365 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7954ED3C2CB46B8800E39365 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7954ED422CB46B8800E39365 /* JogassoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JogassoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7954ED462CB46B8800E39365 /* JogassoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogassoTests.swift; sourceTree = "<group>"; };
 		7954ED4C2CB46B8800E39365 /* JogassoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JogassoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7954ED502CB46B8800E39365 /* JogassoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogassoUITests.swift; sourceTree = "<group>"; };
-		7954ED522CB46B8800E39365 /* JogassoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogassoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				7954ED342CB46B8700E39365 /* Jogasso */,
-				7954ED452CB46B8800E39365 /* JogassoTests */,
-				7954ED4F2CB46B8800E39365 /* JogassoUITests */,
 				7954ED332CB46B8700E39365 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,23 +100,6 @@
 				7954ED3C2CB46B8800E39365 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		7954ED452CB46B8800E39365 /* JogassoTests */ = {
-			isa = PBXGroup;
-			children = (
-				7954ED462CB46B8800E39365 /* JogassoTests.swift */,
-			);
-			path = JogassoTests;
-			sourceTree = "<group>";
-		};
-		7954ED4F2CB46B8800E39365 /* JogassoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				7954ED502CB46B8800E39365 /* JogassoUITests.swift */,
-				7954ED522CB46B8800E39365 /* JogassoUITestsLaunchTests.swift */,
-			);
-			path = JogassoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +241,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7954ED472CB46B8800E39365 /* JogassoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +248,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7954ED512CB46B8800E39365 /* JogassoUITests.swift in Sources */,
-				7954ED532CB46B8800E39365 /* JogassoUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
