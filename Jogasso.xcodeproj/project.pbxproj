@@ -10,6 +10,8 @@
 		6A852B652CB843750047DC18 /* classeteste.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A852B642CB843750047DC18 /* classeteste.swift */; };
 		6AC046A42CB85A6E0088EAE1 /* Sistema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC046A32CB85A6E0088EAE1 /* Sistema.swift */; };
 		6AC046A62CB85BE50088EAE1 /* Decantador.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC046A52CB85BE50088EAE1 /* Decantador.swift */; };
+		6AC046A82CB8645C0088EAE1 /* Alimentacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC046A72CB8645C0088EAE1 /* Alimentacao.swift */; };
+		6AC046AA2CB865680088EAE1 /* Filtro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC046A92CB865680088EAE1 /* Filtro.swift */; };
 		7954ED362CB46B8700E39365 /* JogassoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7954ED352CB46B8700E39365 /* JogassoApp.swift */; };
 		7954ED382CB46B8700E39365 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7954ED372CB46B8700E39365 /* ContentView.swift */; };
 		7954ED3A2CB46B8800E39365 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7954ED392CB46B8800E39365 /* Assets.xcassets */; };
@@ -46,6 +48,8 @@
 		6A852B642CB843750047DC18 /* classeteste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classeteste.swift; sourceTree = "<group>"; };
 		6AC046A32CB85A6E0088EAE1 /* Sistema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sistema.swift; sourceTree = "<group>"; };
 		6AC046A52CB85BE50088EAE1 /* Decantador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decantador.swift; sourceTree = "<group>"; };
+		6AC046A72CB8645C0088EAE1 /* Alimentacao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alimentacao.swift; sourceTree = "<group>"; };
+		6AC046A92CB865680088EAE1 /* Filtro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filtro.swift; sourceTree = "<group>"; };
 		7954ED322CB46B8700E39365 /* Jogasso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jogasso.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7954ED352CB46B8700E39365 /* JogassoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogassoApp.swift; sourceTree = "<group>"; };
 		7954ED372CB46B8700E39365 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -146,6 +150,8 @@
 				6AC046A52CB85BE50088EAE1 /* Decantador.swift */,
 				79C856392CB862410035FEA2 /* Tanque.swift */,
 				79C8563B2CB862980035FEA2 /* Peixe.swift */,
+				6AC046A72CB8645C0088EAE1 /* Alimentacao.swift */,
+				6AC046A92CB865680088EAE1 /* Filtro.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -341,10 +347,12 @@
 				9F6BECD42CB855C8006F74BB /* Componente.swift in Sources */,
 				79B51A9F2CB8585E00D044E5 /* ProdutoQuimico.swift in Sources */,
 				6A852B652CB843750047DC18 /* classeteste.swift in Sources */,
+				6AC046A82CB8645C0088EAE1 /* Alimentacao.swift in Sources */,
 				6AC046A62CB85BE50088EAE1 /* Decantador.swift in Sources */,
 				79C8563A2CB862410035FEA2 /* Tanque.swift in Sources */,
 				79C8563C2CB862980035FEA2 /* Peixe.swift in Sources */,
 				7954ED362CB46B8700E39365 /* JogassoApp.swift in Sources */,
+				6AC046AA2CB865680088EAE1 /* Filtro.swift in Sources */,
 				9F6BECD22CB855A4006F74BB /* Node.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
