@@ -11,6 +11,7 @@
 		7954ED382CB46B8700E39365 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7954ED372CB46B8700E39365 /* ContentView.swift */; };
 		7954ED3A2CB46B8800E39365 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7954ED392CB46B8800E39365 /* Assets.xcassets */; };
 		7954ED3D2CB46B8800E39365 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7954ED3C2CB46B8800E39365 /* Preview Assets.xcassets */; };
+		9F6BECBF2CB843E2006F74BB /* JoseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BECBE2CB843E2006F74BB /* JoseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		7954ED3C2CB46B8800E39365 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7954ED422CB46B8800E39365 /* JogassoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JogassoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7954ED4C2CB46B8800E39365 /* JogassoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JogassoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F6BECBE2CB843E2006F74BB /* JoseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			children = (
 				7954ED352CB46B8700E39365 /* JogassoApp.swift */,
 				7954ED372CB46B8700E39365 /* ContentView.swift */,
+				9F6BECBE2CB843E2006F74BB /* JoseView.swift */,
 				7954ED392CB46B8800E39365 /* Assets.xcassets */,
 				7954ED3B2CB46B8800E39365 /* Preview Content */,
 			);
@@ -232,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F6BECBF2CB843E2006F74BB /* JoseView.swift in Sources */,
 				7954ED382CB46B8700E39365 /* ContentView.swift in Sources */,
 				7954ED362CB46B8700E39365 /* JogassoApp.swift in Sources */,
 			);
