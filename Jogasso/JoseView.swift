@@ -10,6 +10,9 @@ import SwiftUI
 struct JoseView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("joze")
+        Image(systemName: "square.and.arrow.up.fill")
+
     }
 }
 
