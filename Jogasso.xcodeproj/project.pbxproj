@@ -123,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				79C856382CB85F780035FEA2 /* ViewModel */,
+				79C856462CB8692B0035FEA2 /* Repository */,
 				9F6BECC02CB84FAA006F74BB /* Model */,
 				9F6BECC12CB84FB0006F74BB /* View */,
 				7954ED372CB46B8700E39365 /* ContentView.swift */,
@@ -172,13 +173,13 @@
 			isa = PBXGroup;
 			children = (
 			);
-			path = Repository;
+			name = Repository;
+			path = Model/Repository;
 			sourceTree = "<group>";
 		};
 		9F6BECC02CB84FAA006F74BB /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				79C856462CB8692B0035FEA2 /* Repository */,
 				79C856452CB869150035FEA2 /* Entidades */,
 			);
 			path = Model;
