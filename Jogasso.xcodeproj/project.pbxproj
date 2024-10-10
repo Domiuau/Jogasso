@@ -152,7 +152,7 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		9F6BECC02CB84FAA006F74BB /* Model */ = {
+		79C856452CB869150035FEA2 /* Entidades */ = {
 			isa = PBXGroup;
 			children = (
 				9F6BECCB2CB85575006F74BB /* Entity.swift */,
@@ -164,6 +164,22 @@
 				79C8563B2CB862980035FEA2 /* Peixe.swift */,
 				6AC046A72CB8645C0088EAE1 /* Alimentacao.swift */,
 				6AC046A92CB865680088EAE1 /* Filtro.swift */,
+			);
+			path = Entidades;
+			sourceTree = "<group>";
+		};
+		79C856462CB8692B0035FEA2 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		9F6BECC02CB84FAA006F74BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				79C856462CB8692B0035FEA2 /* Repository */,
+				79C856452CB869150035FEA2 /* Entidades */,
 			);
 			path = Model;
 			sourceTree = "<group>";
