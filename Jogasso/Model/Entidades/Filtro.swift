@@ -12,4 +12,11 @@ struct Filtro: Item {
     var descricao: String = ""
     var preco: Int = 0
     var funcao: String
+    
+    init(nome: String, descricao: String, preco: Int, funcao: String) {
+        self.nome = nome
+        self.descricao = descricao
+        self.preco = preco
+        self.funcao = funcao
+    }
 }
