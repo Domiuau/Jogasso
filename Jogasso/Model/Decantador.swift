@@ -7,8 +7,8 @@
 
 import Foundation
 
-class Decantador: Item {
-    var nome: String
-    var descricao: String
-    var funcao: String
-}
+//class Decantador: Item {
+//    var nome: String
+//    var descricao: String
+//    var funcao: String
+//}

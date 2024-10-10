@@ -7,8 +7,11 @@
 
 import Foundation
 
-class ProdutoQuimico: Item {
+struct ProdutoQuimico: Item {
     
+    var nome: String;
+    var descricao: String;
+    var preco: Int;
     var funcao: String;
     var beneficio: Int;
     var quantidade: Int;
@@ -17,10 +20,9 @@ class ProdutoQuimico: Item {
         self.funcao = funcao
         self.beneficio = beneficio
         self.quantidade = quantidade
-        super.init(nome: nome, descricao: descricao, preco: preco)
+        self.nome = nome;
+        self.descricao = descricao;
+        self.preco = preco
     }
-    
-    
-    
-    
+
 }

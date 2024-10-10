@@ -16,9 +16,10 @@
 		7954ED3D2CB46B8800E39365 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7954ED3C2CB46B8800E39365 /* Preview Assets.xcassets */; };
 		79B51A9D2CB8578100D044E5 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B51A9C2CB8578100D044E5 /* Item.swift */; };
 		79B51A9F2CB8585E00D044E5 /* ProdutoQuimico.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B51A9E2CB8585E00D044E5 /* ProdutoQuimico.swift */; };
+		79C8563A2CB862410035FEA2 /* Tanque.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C856392CB862410035FEA2 /* Tanque.swift */; };
+		79C8563C2CB862980035FEA2 /* Peixe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C8563B2CB862980035FEA2 /* Peixe.swift */; };
 		9F6BECBF2CB843E2006F74BB /* JoseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BECBE2CB843E2006F74BB /* JoseView.swift */; };
 		9F6BECCC2CB85575006F74BB /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BECCB2CB85575006F74BB /* Entity.swift */; };
-		9F6BECCE2CB8557D006F74BB /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BECCD2CB8557D006F74BB /* Repository.swift */; };
 		9F6BECD02CB85596006F74BB /* Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9F6BECCF2CB85596006F74BB /* Scene.sks */; };
 		9F6BECD22CB855A4006F74BB /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BECD12CB855A4006F74BB /* Node.swift */; };
 		9F6BECD42CB855C8006F74BB /* Componente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BECD32CB855C8006F74BB /* Componente.swift */; };
@@ -54,9 +55,10 @@
 		7954ED4C2CB46B8800E39365 /* JogassoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JogassoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79B51A9C2CB8578100D044E5 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		79B51A9E2CB8585E00D044E5 /* ProdutoQuimico.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdutoQuimico.swift; sourceTree = "<group>"; };
+		79C856392CB862410035FEA2 /* Tanque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tanque.swift; sourceTree = "<group>"; };
+		79C8563B2CB862980035FEA2 /* Peixe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peixe.swift; sourceTree = "<group>"; };
 		9F6BECBE2CB843E2006F74BB /* JoseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoseView.swift; sourceTree = "<group>"; };
 		9F6BECCB2CB85575006F74BB /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
-		9F6BECCD2CB8557D006F74BB /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		9F6BECCF2CB85596006F74BB /* Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene.sks; sourceTree = "<group>"; };
 		9F6BECD12CB855A4006F74BB /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		9F6BECD32CB855C8006F74BB /* Componente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Componente.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 		7954ED342CB46B8700E39365 /* Jogasso */ = {
 			isa = PBXGroup;
 			children = (
+				79C856382CB85F780035FEA2 /* ViewModel */,
 				9F6BECC12CB84FB0006F74BB /* View */,
 				9F6BECC02CB84FAA006F74BB /* Model */,
 				7954ED372CB46B8700E39365 /* ContentView.swift */,
@@ -126,11 +129,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		79C856382CB85F780035FEA2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		9F6BECC02CB84FAA006F74BB /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				9F6BECC92CB85106006F74BB /* Entitites */,
-				9F6BECC52CB85087006F74BB /* Repositories */,
+				9F6BECCB2CB85575006F74BB /* Entity.swift */,
+				79B51A9C2CB8578100D044E5 /* Item.swift */,
+				79B51A9E2CB8585E00D044E5 /* ProdutoQuimico.swift */,
+				6AC046A32CB85A6E0088EAE1 /* Sistema.swift */,
+				6AC046A52CB85BE50088EAE1 /* Decantador.swift */,
+				79C856392CB862410035FEA2 /* Tanque.swift */,
+				79C8563B2CB862980035FEA2 /* Peixe.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -162,14 +177,6 @@
 			path = Componentes;
 			sourceTree = "<group>";
 		};
-		9F6BECC52CB85087006F74BB /* Repositories */ = {
-			isa = PBXGroup;
-			children = (
-				9F6BECCD2CB8557D006F74BB /* Repository.swift */,
-			);
-			path = Repositories;
-			sourceTree = "<group>";
-		};
 		9F6BECC62CB85095006F74BB /* SpriteKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,18 +192,6 @@
 				9F6BECD12CB855A4006F74BB /* Node.swift */,
 			);
 			path = Nodes;
-			sourceTree = "<group>";
-		};
-		9F6BECC92CB85106006F74BB /* Entitites */ = {
-			isa = PBXGroup;
-			children = (
-				9F6BECCB2CB85575006F74BB /* Entity.swift */,
-				79B51A9C2CB8578100D044E5 /* Item.swift */,
-				79B51A9E2CB8585E00D044E5 /* ProdutoQuimico.swift */,
-				6AC046A32CB85A6E0088EAE1 /* Sistema.swift */,
-				6AC046A52CB85BE50088EAE1 /* Decantador.swift */,
-			);
-			path = Entitites;
 			sourceTree = "<group>";
 		};
 		9F6BECCA2CB8511D006F74BB /* Scenes */ = {
@@ -347,8 +342,9 @@
 				79B51A9F2CB8585E00D044E5 /* ProdutoQuimico.swift in Sources */,
 				6A852B652CB843750047DC18 /* classeteste.swift in Sources */,
 				6AC046A62CB85BE50088EAE1 /* Decantador.swift in Sources */,
+				79C8563A2CB862410035FEA2 /* Tanque.swift in Sources */,
+				79C8563C2CB862980035FEA2 /* Peixe.swift in Sources */,
 				7954ED362CB46B8700E39365 /* JogassoApp.swift in Sources */,
-				9F6BECCE2CB8557D006F74BB /* Repository.swift in Sources */,
 				9F6BECD22CB855A4006F74BB /* Node.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
