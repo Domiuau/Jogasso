@@ -1,27 +1,34 @@
-//
-//  ContentView.swift
-//  Jogasso
-//
-//  Created by GUILHERME MATEUS SOUSA SANTOS on 07/10/24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @State private var currentTime = Date()
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-            Text("adsdsasad")
-            Text("TEXTO2")
-            Text("texto3")
+            Text("\(currentTime, formatter: dateFormatter)")
+                .font(.largeTitle)
+                .padding()
+                .onAppear(perform: startTimer)
         }
-        .padding()
+    }
+
+    private func startTimer() {
+        // Atualiza o tempo a cada segundo
+        Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { _ in
+            currentTime = Date()
+        }
     }
 }
 
-#Preview {
-    ContentView()
+// Formatação da data
+private let dateFormatter: DateFormatter = {
+    let formatter = DateFormatter()
+    formatter.dateFormat = "HH:mm:ss" // Formato de hora
+    return formatter
+}()
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }
