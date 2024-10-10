@@ -12,6 +12,8 @@
 		7954ED382CB46B8700E39365 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7954ED372CB46B8700E39365 /* ContentView.swift */; };
 		7954ED3A2CB46B8800E39365 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7954ED392CB46B8800E39365 /* Assets.xcassets */; };
 		7954ED3D2CB46B8800E39365 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7954ED3C2CB46B8800E39365 /* Preview Assets.xcassets */; };
+		79B51A9D2CB8578100D044E5 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B51A9C2CB8578100D044E5 /* Item.swift */; };
+		79B51A9F2CB8585E00D044E5 /* ProdutoQuimico.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B51A9E2CB8585E00D044E5 /* ProdutoQuimico.swift */; };
 		9F6BECBF2CB843E2006F74BB /* JoseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BECBE2CB843E2006F74BB /* JoseView.swift */; };
 		9F6BECCC2CB85575006F74BB /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BECCB2CB85575006F74BB /* Entity.swift */; };
 		9F6BECCE2CB8557D006F74BB /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BECCD2CB8557D006F74BB /* Repository.swift */; };
@@ -46,6 +48,8 @@
 		7954ED3C2CB46B8800E39365 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7954ED422CB46B8800E39365 /* JogassoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JogassoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7954ED4C2CB46B8800E39365 /* JogassoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JogassoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79B51A9C2CB8578100D044E5 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		79B51A9E2CB8585E00D044E5 /* ProdutoQuimico.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdutoQuimico.swift; sourceTree = "<group>"; };
 		9F6BECBE2CB843E2006F74BB /* JoseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoseView.swift; sourceTree = "<group>"; };
 		9F6BECCB2CB85575006F74BB /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
 		9F6BECCD2CB8557D006F74BB /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
@@ -183,6 +187,8 @@
 			isa = PBXGroup;
 			children = (
 				9F6BECCB2CB85575006F74BB /* Entity.swift */,
+				79B51A9C2CB8578100D044E5 /* Item.swift */,
+				79B51A9E2CB8585E00D044E5 /* ProdutoQuimico.swift */,
 			);
 			path = Entitites;
 			sourceTree = "<group>";
@@ -327,9 +333,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F6BECBF2CB843E2006F74BB /* JoseView.swift in Sources */,
+				79B51A9D2CB8578100D044E5 /* Item.swift in Sources */,
 				9F6BECCC2CB85575006F74BB /* Entity.swift in Sources */,
 				7954ED382CB46B8700E39365 /* ContentView.swift in Sources */,
 				9F6BECD42CB855C8006F74BB /* Componente.swift in Sources */,
+				79B51A9F2CB8585E00D044E5 /* ProdutoQuimico.swift in Sources */,
 				6A852B652CB843750047DC18 /* classeteste.swift in Sources */,
 				7954ED362CB46B8700E39365 /* JogassoApp.swift in Sources */,
 				9F6BECCE2CB8557D006F74BB /* Repository.swift in Sources */,
