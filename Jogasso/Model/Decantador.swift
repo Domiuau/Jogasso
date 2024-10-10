@@ -9,8 +9,8 @@ import Foundation
 
 class Decantador: Item {
     var preco: Int = 0
-    
     var nome: String = ""
     var descricao: String = ""
     var funcao: String = ""
+    
 }
