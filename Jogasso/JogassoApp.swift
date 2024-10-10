@@ -10,6 +10,9 @@ import SwiftUI
 @main
 struct JogassoApp: App {
     var body: some Scene {
+        
+        
+        
         WindowGroup {
             ContentView()
         }
