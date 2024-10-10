@@ -20,6 +20,10 @@
 		79B51A9F2CB8585E00D044E5 /* ProdutoQuimico.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B51A9E2CB8585E00D044E5 /* ProdutoQuimico.swift */; };
 		79C8563A2CB862410035FEA2 /* Tanque.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C856392CB862410035FEA2 /* Tanque.swift */; };
 		79C8563C2CB862980035FEA2 /* Peixe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C8563B2CB862980035FEA2 /* Peixe.swift */; };
+		79C8563E2CB867C90035FEA2 /* InventarioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C8563D2CB867C90035FEA2 /* InventarioViewModel.swift */; };
+		79C856402CB867EF0035FEA2 /* UsuarioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C8563F2CB867EF0035FEA2 /* UsuarioViewModel.swift */; };
+		79C856422CB868080035FEA2 /* PreferenciasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C856412CB868080035FEA2 /* PreferenciasViewModel.swift */; };
+		79C856442CB8681C0035FEA2 /* TanqueAtivoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C856432CB8681C0035FEA2 /* TanqueAtivoViewModel.swift */; };
 		9F6BECBF2CB843E2006F74BB /* JoseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BECBE2CB843E2006F74BB /* JoseView.swift */; };
 		9F6BECCC2CB85575006F74BB /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BECCB2CB85575006F74BB /* Entity.swift */; };
 		9F6BECD02CB85596006F74BB /* Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9F6BECCF2CB85596006F74BB /* Scene.sks */; };
@@ -61,6 +65,10 @@
 		79B51A9E2CB8585E00D044E5 /* ProdutoQuimico.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdutoQuimico.swift; sourceTree = "<group>"; };
 		79C856392CB862410035FEA2 /* Tanque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tanque.swift; sourceTree = "<group>"; };
 		79C8563B2CB862980035FEA2 /* Peixe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peixe.swift; sourceTree = "<group>"; };
+		79C8563D2CB867C90035FEA2 /* InventarioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventarioViewModel.swift; sourceTree = "<group>"; };
+		79C8563F2CB867EF0035FEA2 /* UsuarioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioViewModel.swift; sourceTree = "<group>"; };
+		79C856412CB868080035FEA2 /* PreferenciasViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenciasViewModel.swift; sourceTree = "<group>"; };
+		79C856432CB8681C0035FEA2 /* TanqueAtivoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TanqueAtivoViewModel.swift; sourceTree = "<group>"; };
 		9F6BECBE2CB843E2006F74BB /* JoseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoseView.swift; sourceTree = "<group>"; };
 		9F6BECCB2CB85575006F74BB /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
 		9F6BECCF2CB85596006F74BB /* Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene.sks; sourceTree = "<group>"; };
@@ -115,8 +123,8 @@
 			isa = PBXGroup;
 			children = (
 				79C856382CB85F780035FEA2 /* ViewModel */,
-				9F6BECC12CB84FB0006F74BB /* View */,
 				9F6BECC02CB84FAA006F74BB /* Model */,
+				9F6BECC12CB84FB0006F74BB /* View */,
 				7954ED372CB46B8700E39365 /* ContentView.swift */,
 				6A852B642CB843750047DC18 /* classeteste.swift */,
 				7954ED392CB46B8800E39365 /* Assets.xcassets */,
@@ -136,6 +144,10 @@
 		79C856382CB85F780035FEA2 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				79C8563D2CB867C90035FEA2 /* InventarioViewModel.swift */,
+				79C8563F2CB867EF0035FEA2 /* UsuarioViewModel.swift */,
+				79C856412CB868080035FEA2 /* PreferenciasViewModel.swift */,
+				79C856432CB8681C0035FEA2 /* TanqueAtivoViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -350,10 +362,14 @@
 				6AC046A82CB8645C0088EAE1 /* Alimentacao.swift in Sources */,
 				6AC046A62CB85BE50088EAE1 /* Decantador.swift in Sources */,
 				79C8563A2CB862410035FEA2 /* Tanque.swift in Sources */,
+				79C856442CB8681C0035FEA2 /* TanqueAtivoViewModel.swift in Sources */,
 				79C8563C2CB862980035FEA2 /* Peixe.swift in Sources */,
 				7954ED362CB46B8700E39365 /* JogassoApp.swift in Sources */,
 				6AC046AA2CB865680088EAE1 /* Filtro.swift in Sources */,
+				79C856402CB867EF0035FEA2 /* UsuarioViewModel.swift in Sources */,
 				9F6BECD22CB855A4006F74BB /* Node.swift in Sources */,
+				79C8563E2CB867C90035FEA2 /* InventarioViewModel.swift in Sources */,
+				79C856422CB868080035FEA2 /* PreferenciasViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
